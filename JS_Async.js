@@ -5,8 +5,6 @@
     Reference: https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff
 */
 
-const { reject } = require("lodash")
-
 class DatabaseClient {
     constructor(dataConnectionInfo) {
         this.dataConnectionInfo = dataConnectionInfo
