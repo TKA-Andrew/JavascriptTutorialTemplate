@@ -1,5 +1,8 @@
 /* 
     Description: A Javascript template to demonstrate how to handle Asynchronous programming with Javascript.
+    In fact, the things that make Javascript non-blocking are not part of Javascript engine, 
+    they are part of the browser's or node.js's runtime envinronment.
+    Reference: https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff
 */
 
 const { reject } = require("lodash")
